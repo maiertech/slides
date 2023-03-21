@@ -1,2 +1,3 @@
 # slides
-Collection of slides for my talks.
+
+Monorepo with slides for my talks.

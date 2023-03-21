@@ -1,0 +1,30 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 5173
+    visibility: public
+    onOpen: notify
+
+tasks:
+  - name: Run dev server
+    init: npm install
+    command: turbo run dev --filter=website
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss
+    - csstools.postcss
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - svelte.svelte-vscode
+
+github:
+  prebuilds:
+    master: true
+    branches: true
+    pullRequests: true
+    pullRequestsFromForks: false
+    addCheck: prevent-merge-on-error
+    addComment: false
+    addBadge: false
