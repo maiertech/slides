@@ -1,0 +1,5 @@
+# .gitpod.yml
+
+ports:
+  - port: 5173
+    visibility: public

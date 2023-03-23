@@ -20,4 +20,14 @@
 	<meta property="og:description" content={meta.description} />
 </svelte:head>
 
-<slot />
+<main>
+	<slot />
+</main>
+
+<style>
+	main {
+		height: 100vh;
+		background-color: var(--surface-1);
+		color: var(--text-1);
+	}
+</style>
