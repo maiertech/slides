@@ -3,7 +3,6 @@
 	<ul>
 		<li>Disposable workspaces.</li>
 		<li>One task per workspace.</li>
-		<li>Faster onboarding (teams).</li>
 	</ul>
 </div>
 
