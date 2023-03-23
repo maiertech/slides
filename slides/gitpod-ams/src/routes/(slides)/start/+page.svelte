@@ -12,6 +12,9 @@
 	</div>
 
 	<h1>Five ways to customize a Gitpod workspace</h1>
+
+	<p>Thilo Maier</p>
+	<p>thilo@maier.social (Mastodon)</p>
 </div>
 
 <style>
@@ -51,5 +54,9 @@
 	h1 {
 		font-size: var(--size-10);
 		text-align: center;
+	}
+
+	p {
+		font-size: var(--size-6);
 	}
 </style>

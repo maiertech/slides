@@ -26,7 +26,8 @@
 		{ route: '/config-extensions', title: 'Config extensions', notes: false },
 		{ route: '/editors-and-git-providers', title: 'Editors and Git providers', notes: false },
 		{ route: '/gitpod-dashboard', title: 'Gitpod dashboard', notes: false },
-		{ route: '/conclusion', title: 'Conclusion', notes: false }
+		{ route: '/conclusion', title: 'Conclusion', notes: false },
+		{ route: '/links', title: 'Links', notes: false }
 	];
 </script>
 
