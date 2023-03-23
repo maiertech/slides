@@ -1,0 +1,9 @@
+# .gitpod.yml
+
+vscode:
+  extensions:
+    - bradlc.vscode-tailwindcss
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - mattpocock.ts-error-translator
+    - svelte.svelte-vscode

@@ -9,14 +9,14 @@ ports:
 tasks:
   - name: Run dev server
     init: npm install
-    command: turbo run dev --filter=website
+    command: turbo run dev --filter=gitpod-ams
 
 vscode:
   extensions:
-    - bradlc.vscode-tailwindcss
     - csstools.postcss
     - dbaeumer.vscode-eslint
     - esbenp.prettier-vscode
+    - phoenisx.cssvar
     - svelte.svelte-vscode
 
 github:

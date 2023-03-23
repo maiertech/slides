@@ -2,7 +2,13 @@
 	import { Speaker } from 'presveltation';
 </script>
 
-<div class="h-screen min-h-screen">
+<div class="note">
 	<Speaker />
 	<slot />
 </div>
+
+<style>
+	.note {
+		height: 100%;
+	}
+</style>

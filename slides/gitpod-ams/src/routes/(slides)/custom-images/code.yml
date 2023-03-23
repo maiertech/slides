@@ -1,0 +1,3 @@
+# .gitpod.yml
+
+image: gitpod/workspace-node-lts

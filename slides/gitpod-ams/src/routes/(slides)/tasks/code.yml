@@ -1,0 +1,6 @@
+# .gitpod.yml
+
+tasks:
+  - name: Run dev server
+    init: npm install
+    command: turbo run dev --filter=gitpod-ams
