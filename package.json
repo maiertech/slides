@@ -12,6 +12,6 @@
     "prettier": "^2.7.1",
     "prettier-plugin-svelte": "^2.7.0",
     "prettier-plugin-tailwindcss": "^0.2.5",
-    "turbo": "^1.8.4"
+    "turbo": "^1.8.8"
   }
 }
